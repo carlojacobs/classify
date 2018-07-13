@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 export default class Overview extends Component {
 	render() {
 		const name = this.props.user.name.split(' ')[0];
-		const classesWord = (this.props.numOfClasses == 1) ? "class" : "classes";
-		const notesWord = (this.props.numOfNotes == 1) ? "note" : "notes";
+		const classesWord = (this.props.numOfClasses === 1) ? "class" : "classes";
+		const notesWord = (this.props.numOfNotes === 1) ? "note" : "notes";
 		return(
 			<div>
 				<div className="card">

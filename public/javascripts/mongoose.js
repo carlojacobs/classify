@@ -7,7 +7,7 @@ Dependencies
 
 const mongoose = require('mongoose');
 const bluebird = require('bluebird');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 // Creating a mongoose conection
 mongoose.connect('mongodb://carlo:Dittoenbram1234@carlo-shard-00-00-nwaxe.mongodb.net:27017,carlo-shard-00-01-nwaxe.mongodb.net:27017,carlo-shard-00-02-nwaxe.mongodb.net:27017/classify?ssl=true&replicaSet=carlo-shard-0&authSource=admin', {
